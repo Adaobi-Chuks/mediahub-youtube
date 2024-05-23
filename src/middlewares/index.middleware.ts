@@ -27,5 +27,5 @@ export default (app: Application) => {
   app.use(helmet());
 
   // Mounting routes
-  app.use("api/v1", indexRoutes);
+  app.use("/api/v1", indexRoutes);
 };

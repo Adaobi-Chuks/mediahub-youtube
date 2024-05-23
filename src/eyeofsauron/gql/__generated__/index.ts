@@ -1,7 +1,7 @@
 import type { GraphQLClient, RequestOptions } from 'graphql-request';
 import { createHash } from 'crypto';
 import { GraphQLClient as GQLClient } from 'graphql-request';
-import { GandalfErrorCode, GandalfError, handleErrors } from '../../errors.js';
+import { GandalfErrorCode, GandalfError, handleErrors } from '../../errors.ts';
 import { print } from 'graphql'
 import gql from 'graphql-tag';
 export type Maybe<T> = T | null;

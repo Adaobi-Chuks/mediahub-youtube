@@ -1,4 +1,14 @@
 {
+  "name": "enumuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "dist/app.js"
+  },
+  "author": "Adaobi Chuks-Aginam",
+  "license": "ISC",
   "dependencies": {
     "@gandalf-network/connect": "^1.0.5",
     "@gandalf-network/eyeofsauron": "^1.0.11",
@@ -10,7 +20,9 @@
     "graphql-request": "^6.1.0",
     "graphql-tag": "^2.12.6",
     "helmet": "^7.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pino": "^9.1.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
